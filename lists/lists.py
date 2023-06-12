@@ -216,7 +216,175 @@ list1=["ree","riri","roy","rita","ray"]
 list2=["roy","ray","rakeem","kimmy"]
 added=intersection(list1,list2)
 print(added)
+
+
+
+#Write a function that takes a list of numbers as input and returns a new list with all duplicate numbers removed.
+def removeDuplicate(lists):
+    common=[]
+    for x in lists:
+        if x not in common:
+            common.append(x)
+    return common
+lists=[1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9]
+newlist=removeDuplicate(lists)
+print(newlist)        
+
+#Write a Python program to find the length of a list.
+list=[1,2,3,4,5,6,7,8]
+news=len(list)
+print(news)
+
+# Create a list of integers and print out the sum of all the numbers in the list.
+def listsum(list):
+    sum=0
+    for l in list:
+        sum+=l
+    print( sum)
+lists=[1,2,3,4,5]
+listsum(lists)    
+
+# Write a program that prompts the user to enter a list of numbers separated by commas, then creates a list from those numbers and prints it.
+# Create a program that generates a list of the first 20 Fibonacci numbers and prints it.
+# Write a function that takes a list of integers and returns the largest number in the list.
+def large(integers):
+    largest=integers[0]
+    for ints in integers:
+        if ints >largest:
+            largest=ints
+    return largest
+integers=[1,78,987,267,908877,1,4,67,5,879,656384]
+print(large(integers))        
+# Create a program that asks the user to enter a list of words, then prints out the length of each word in the list.
+def stringlength(words):
+    for x in words:
+        print(len(x))
+words=["rita","tracey","kimmy","wendy"]
+stringlength(words)       
+# Write a program that takes a list of integers and 
+# returns a new list with only the even numbers from the original list.
+def evenlist(integers):
+    evenlist=[]
+    for ints in integers:
+        if ints %2==0:
+            evenlist.append(ints)
+    return evenlist 
+integers=[1,764,5,8,2,986,100000,54]
+print(evenlist(integers))       
+
+# Create a program that takes a list of strings and returns 
+# a new list with only the strings that have more than 5 characters.
+def longstring(strings):
+    newstring=[]
+    for s in strings:
+        if len(s)>5:
+            newstring.append(s)
+    return newstring
+strings=["khaseyi","kayla","athman","kijanmahbdhdnundhrbdr"]
+print(longstring(strings))        
+# Write a function that takes a list of integers and returns a
+#  new list with the squares of each number in the original list.
+def squares(ints):
+    squared=[]
+    for i in ints:
         
+        squared.append(i*i)
+    return(squared)
+ints=[1,2,3,4,5,6,7,8,9,10]
+print(squares(ints))    
+# Create a program that takes two lists and returns a new 
+# list that contains only the elements that are common to both lists.
+def common(list1,list2):
+    commons=[]
+    for x in list1:
+        if x in list2:
+            commons.append(x)
+    return commons
+list1=["rita","kim","tracey","hamadi"]
+list2=["rita","kim","wesh"]
+print(common(list1,list2))        
+# Write a program that takes a list of numbers and 
+# returns a new list with the same numbers in reverse order.
+
+
+
+
+# Write a Python program to find the smallest number in a list.
+def smallest(list):
+    small=list[0]
+    for x in list:
+        if x<small:
+            small=x
+    return small
+list=[890,65,456,28783,91283,918981,10] 
+print(smallest(list))       
+
+# Write a Python program to find the second largest number in a list.
+# Write a Python program to sort a list in descending order.
+# Write a Python program to count the number of occurrences of an item in a list.
+# Write a Python program to reverse a list.
+# Write a Python program to check if a list is empty.
+
+# Given two lists [1, 2, 3] and [4, 5, 6], concatenate them into a single list.
+# Given a list of strings ['cat', 'dog', 'bird'], sort the list in alphabetical order.
+# Given a list of numbers [1, 2, 3, 4, 5], reverse the order of the list.
+# Given a list of numbers [1, 2, 3, 4, 5], find the sum of all the numbers in the list.
+# Given a list of strings ['cat', 'dog', 'bird'], join the strings together with a space between them.
+# Given a list of numbers [1, 2, 3, 4, 5], find the largest number in the list.
+# Given a list of strings ['cat', 'dog', 'bird'], create a new list with the length of each string.
+# Given a list of numbers [1, 2, 3, 4, 5], create a new list with each number squared.
+
+
+
+
+
+
+# Create a list of integers and print out the sum of all the numbers in the list.
+def sum_list(list):
+    sum=0
+    for l in list:
+        sum +=l
+    return sum
+list=[2,3,5,6]
+print(sum_list(list))
+
+# Write a function that takes a list of integers and returns the largest number in the list.
+def largestnum(lists):
+    largest=lists[0]
+    for list in lists:
+        if list>largest:
+         largest=list
+    return largest
+lists=[2,3,47,1,9,17]
+print(largestnum(lists))
+
+# Write a program that takes a list of integers and returns
+#  a new list with only the even numbers from the original list.
+
+def even(list):
+    number=[]
+    for l in list:
+        if l %2==0:
+            number.append(l)
+    return number
+list=[1,2,3,4,5,6,7,8,9,10]
+print(even(list))
+
+   
+        
+
+
+       
+                
+
+
+
+
+
+
+
+
+
 
 
 

@@ -156,5 +156,17 @@ first_name = "John"
 last_name = "Doe"
 print(f"{last_name} {first_name}")
 
+def unique(lists):
+    uni=[]
+    for x in lists:
+        if x not in uni:
+            uni.append(x)
+    if uni==lists:
+            print(" has unique elements")
+    else:
+            print("lacks unique elements")
+lists=[1,2,3,4,5,6]
+unique(lists)                    
+
 
 
